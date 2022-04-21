@@ -2,6 +2,10 @@
 
 
 
+b站 https://www.bilibili.com/video/BV1iY411P7Dp/
+
+
+
 - 简单介绍飞浆
 - 通过docker构建OCR应用 
 - Docker镜像瘦身技巧
