@@ -1,0 +1,4 @@
+FROM python:3.7.10-slim
+# 构建飞浆的基础系统运行环境
+RUN apt update && apt install g++ libglib2.0-dev libgl1-mesa-glx libsm6 libxrender1 libgl1 -y \
+     && apt-get clean && rm -rf /root/.cache/* && rm -rf /var/lib/apt/lists/*
